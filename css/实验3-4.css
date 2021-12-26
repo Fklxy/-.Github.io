@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+	 border: 2px solid black;
+	 border-collapse:collapse;
+	 width: 100%;
+	 align-self: center;
+	 font:12px/1.5em"宋体";
+}
+td{
+	text-align: center;
+	border: 2px solid black;
+}
+thead{
+	background-color:#2494C3;
+	color: aliceblue;
+}
+.tr{
+	background-color: #B9E1EB;
+}

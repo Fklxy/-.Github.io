@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0px;
+	margin:0px;
+	line-height:20px;
+}
+body{
+	height:100%;
+	background-color:#FFFFFF;
+	position:relative;
+}
+.main_block{
+	font-family:"宋体";
+	font-size:15px;
+	color:#000000;
+	overflow:auto;   /*字体溢出框体后自动显示滚动条*/
+	float:left;    /*浮动向左*/
+	width:800px;
+}
+.main_content{
+	padding:20px 0 10px 20px;  /*上右下左的内边距*/
+	width:720px;
+	float:left;
+}
+.main_content h2{
+	color:red;
+	text-align:center;
+}
+.box_details{
+	color:red;
+	text-align:center;
+}
+.box_details p{
+	padding:5px 15px 5px 15px;
+	text-indent:2em;   /*缩进2个文字的高度*/
+	line-height:25px;
+}
+.box_details2{
+	padding:10px 0px 10px 0px;
+	margin:10px 20px 10px 0px;
+	clear:both;   /*消除所有浮动*/
+}
+.box_details2 h3{
+	padding:0px 15px 5px 15px;
+	color:#359A68;
+}
+.box_details2 p{
+	padding:25px 15px 5px 15px;
+	text-indent:2em;
+	line-height:25px;
+}
